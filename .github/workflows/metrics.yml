@@ -1,0 +1,45 @@
+name: Metrics
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+  push:
+    branches: ["main"]
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: francinaldojrdiniz
+          template: classic
+          base: header, activity, community, repositories, metadata
+          config_timezone: America/Sao_Paulo
+
+          # Linguagens (inclui repos privados se o token tiver escopo repo)
+          plugin_languages: yes
+          plugin_languages_ignored: html, css, scss, less
+          plugin_languages_details: bytes-size, percentage
+          plugin_languages_limit: 8
+
+          # Hábitos de commit (frequência, horários, facts)
+          plugin_habits: yes
+          plugin_habits_from: 500
+          plugin_habits_facts: yes
+          plugin_habits_charts: yes
+
+          # Follow-up (PRs/issues abertos aguardando ação)
+          plugin_followup: yes
+          plugin_followup_sections: repositories, user
+
+          # Atividade recente (inclui reviews)
+          plugin_activity: yes
+          plugin_activity_limit: 5
+          plugin_activity_days: 14
+          plugin_activity_filter: pr, issue, release, review
