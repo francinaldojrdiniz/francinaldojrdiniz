@@ -48,16 +48,17 @@ Freelance/consultoria em **NestJS, GraphQL multi-tenant, arquitetura event-drive
 
 ---
 
-### 📊 GitHub Stats
+### 🧪 Linguagens em repos públicos
 
 <p align="center">
-  <a href="https://github.com/francinaldojrdiniz">
-    <img height="180" src="https://github-readme-stats.vercel.app/api?username=francinaldojrdiniz&show_icons=true&show=prs_merged,reviews&theme=tokyonight&hide_border=true" />
-  </a>
   <a href="https://github.com/francinaldojrdiniz">
     <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=francinaldojrdiniz&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&hide=html,css" />
   </a>
 </p>
+
+<sub align="center">
+  <p align="center"><em>Volume real (incluindo repos privados) está no bloco de métricas acima.</em></p>
+</sub>
 
 ---
 
