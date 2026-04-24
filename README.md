@@ -24,6 +24,21 @@
 
 ---
 
+### 🚀 Highlights
+
+- 🔄 **Migração Hasura → NestJS-Query** em plataforma multi-tenant de logística agro: 100+ módulos GraphQL, 15+ tenants, banco isolado por cliente resolvido dinamicamente pelo hostname. Sem downtime, em coexistência com a stack legada via Apollo com dois clientes (V1/V2).
+- ⚡ **Event Trigger System** genérico em PostgreSQL + RabbitMQ substituindo o Actions/Event Triggers do Hasura: trigger SQL → `event_log` → worker cron com `FOR UPDATE SKIP LOCKED` publica para exchanges downstream. Reduziu acoplamento e destravou a saída do Hasura.
+- 🚛 **Integração LocalizaAI** (rastreamento logístico) migrada de 20 consumers per-tenant para arquitetura com data-source unificada via `safracontrol-api`. Inclui JWT rotativo por request para eliminar Unauthorized em pods longevos.
+- 📄 **Document AI** (Google) + pipeline de NFe XML: extração automática, fila RabbitMQ, validação pós-processamento — reduziu digitação manual em cargas recorrentes.
+
+---
+
+### 💼 Aberto a
+
+Freelance/consultoria em **NestJS, GraphQL multi-tenant, arquitetura event-driven (RabbitMQ), migração de backend legado e integrações GCP/Firebase**. Pra conversar: [LinkedIn](https://www.linkedin.com/in/francinaldojrdiniz/) ou email abaixo.
+
+---
+
 ### 📊 GitHub Stats
 
 <p align="center">
