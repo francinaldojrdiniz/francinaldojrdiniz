@@ -40,29 +40,23 @@ Freelance/consultoria em **NestJS, GraphQL multi-tenant, arquitetura event-drive
 
 ---
 
-### 📊 GitHub Stats
+### 📈 Atividade & reviews (inclui contribuições privadas)
 
 <p align="center">
-  <a href="https://github.com/francinaldojrdiniz">
-    <img height="180" src="https://github-readme-stats.vercel.app/api?username=francinaldojrdiniz&show_icons=true&count_private=true&include_all_commits=true&theme=tokyonight&hide_border=true" />
-  </a>
-  <a href="https://github.com/francinaldojrdiniz">
-    <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=francinaldojrdiniz&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&hide=html,css" />
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://git.io/streak-stats">
-    <img src="https://streak-stats.demolab.com/?user=francinaldojrdiniz&theme=tokyonight&hide_border=true" />
-  </a>
+  <img src="./metrics.svg" alt="Metrics" />
 </p>
 
 ---
 
-### 📈 Métricas detalhadas (atividade + reviews)
+### 📊 GitHub Stats
 
 <p align="center">
-  <img src="./metrics.svg" alt="Metrics" />
+  <a href="https://github.com/francinaldojrdiniz">
+    <img height="180" src="https://github-readme-stats.vercel.app/api?username=francinaldojrdiniz&show_icons=true&show=prs_merged,reviews&theme=tokyonight&hide_border=true" />
+  </a>
+  <a href="https://github.com/francinaldojrdiniz">
+    <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=francinaldojrdiniz&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&hide=html,css" />
+  </a>
 </p>
 
 ---
