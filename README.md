@@ -30,6 +30,7 @@
 - ⚡ **Event Trigger System** genérico em PostgreSQL + RabbitMQ substituindo o Actions/Event Triggers do Hasura: trigger SQL → `event_log` → worker cron com `FOR UPDATE SKIP LOCKED` publica para exchanges downstream. Reduziu acoplamento e destravou a saída do Hasura.
 - 🚛 **Integração com provedor externo de rastreamento logístico** migrada de 20 consumers per-tenant para arquitetura com data-source unificada. Inclui JWT rotativo por request para eliminar Unauthorized em pods longevos.
 - 📄 **Document AI** (Google) + pipeline de NFe XML: extração automática, fila RabbitMQ, validação pós-processamento — reduziu digitação manual em cargas recorrentes.
+- 🧮 **Engine de cálculo automático de ICMS sobre frete**: alíquotas por UF origem/destino, regime tributário e natureza da operação resolvidas no back-end — eliminou planilhas paralelas e divergência em auditoria fiscal.
 
 ---
 
